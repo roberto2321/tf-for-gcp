@@ -1,0 +1,17 @@
+desktop.ini
+
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+terraform.tfstate.backup
+
+# Ignore any local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore any plan output files
+*.plan
