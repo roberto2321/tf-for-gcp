@@ -1,4 +1,4 @@
 module "secret" {
-  source = "modules/secret_manager"
-  secrets       = var.secrets
+  source  = "./modules/secret_manager"
+  secrets = var.secrets
 }

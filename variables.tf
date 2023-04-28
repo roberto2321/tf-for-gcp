@@ -5,7 +5,6 @@ variable "project_name" {
 
 variable "GOOGLE_CREDENTIALS" {
   type = any
-
 }
 
 variable "region" {
