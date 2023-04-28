@@ -1,6 +1,6 @@
 variable "project_name" {
   type    = string
-  default = "grant-bayerle"
+  default = "carv-app-terraform-poc"
 }
 
 variable "GOOGLE_CREDENTIALS" {
